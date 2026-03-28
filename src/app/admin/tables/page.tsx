@@ -63,7 +63,7 @@ export default function TablesPage() {
     `)
   }
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://eatinmesa.vercel.app'
 
   const s = {
     input: { width: '100%', padding: '9px 12px', background: 'var(--bg)', border: '0.5px solid var(--border2)', borderRadius: 8, fontSize: 13, color: 'var(--text)', outline: 'none' } as React.CSSProperties,
